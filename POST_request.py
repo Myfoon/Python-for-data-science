@@ -2,7 +2,7 @@ import json
 import requests
 
 
-my_personal_dict = {"name":"Viacheslav","surname":"Ivanov","contact":[{"email":"mafon.ff@gmail.com"},{"tg":None}]}
+my_personal_dict = {"name":"Viacheslav","surname":"Ivanov","contact":[{"email":"dummy.mail@gmail.com"},{"tg":None}]}
 
 
 
