@@ -11,7 +11,7 @@ class UnhandledException(Exception):
 def rss_parser(
     xml: str,
     limit: Optional[int] = None,
-    json: bool = False,  # keep the argument name as json
+    json: bool = False,  
 ) -> List[str]:
     key_mapping = {"title": "Feed", "pubDate": "Published"}  # mapping of old keys to new keys
 
